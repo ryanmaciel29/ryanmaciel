@@ -2,3 +2,38 @@ fun main() {
     println("seja bem vindo")
 }
 //-------------------------------------------------------------------------------
+fun main() 
+    println("oi")//exibir mensagens no console
+}
+/*
+ * /
+//variáveis - elas amarzenam valores
+
+//variáveis mutáves - seu valor pode ser alterado -------------------- var
+//variáveis não mutáveis - seu valor NÁO pode ser alterado ----------- val
+//
+//tipos de Variáveis
+//
+//Boolean - verdadeiro ou falso Ex.: true e false
+//String - caracteres no geral ... entre ASPAS DUPLAS 
+//- sem limit de caracteres ex.: "João Geromel Cadeira"
+//
+//char - apenas um digito de caracteres... dentro de ASPAS SIMPLES Ex: `J´
+//INT - Numeros inteiros Ex: 1000
+//Double - numeros decimais, com um limite de até 7 digitos após a virgula - arredonda o número Ex.: 22.5
+//
+//Float - números decimais, com um limite de até 14 digitos após a virgula - arredonda o número Ex.: 22.:5f
+//
+//long - números longos com muitos digitos inteiro, ou decimal Ex.: 80000000000000000000000000000000000000
+//
+//estrotura de uma variável:
+//
+//var nome = valor
+//      ou
+//var nome: Tipo
+//
+var professores de geografia = "Gloria"
+var professorr: string
+
+}
+//--------------------------------------
