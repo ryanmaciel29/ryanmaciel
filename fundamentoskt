@@ -37,3 +37,51 @@ var professorr: string
 
 }
 //--------------------------------------
+fun main() {
+//exibir mensagens no console
+//
+/*
+var tartaruga = "michael havckson"
+
+println("o nome da tartaruga do kilyan mbappé é $tartaruga")
+println("o nome da tartaruga do kilyan mbappé é " + tartaruga)
+
+var leclec = 2
+var alonso = 1
+
+println(" A posição do lek + a posição do alonso são ${(leclec + alonso)}")
+
+println(" A posição do lek + a posição do alonso são " + (leclec + alonso))
+
+var nome = "ryan"
+var idade =14
+var cidade = "são paulo"   
+    
+println("o meu nome é $nome, eu tenho $idade anos e moro em $cidade")    
+*/    
+//Exercício - faça um dialogo de no minimo 15 linhas, nele deve conter,
+// os nomes de quem estão falando de forma concatenada  usando variaveis
+// usem criatividade
+//
+var nome1 = "ryan"
+var nome2 = "henrique"
+println("$nome1- oi $nome2 tudo bem voce fez a atividade de matematica")
+println("$nome2- que atividade")   
+println("$nome1- aquela que valia nota") 
+println("$  ") 
+println("$") 
+println("$   ")     
+println("$   ")      
+println("$    ")     
+println("$   ")      
+println("$    ")     
+println("$       ") 
+        
+        
+        
+        
+        
+        
+    
+}
+//------------------------------------------------------------
