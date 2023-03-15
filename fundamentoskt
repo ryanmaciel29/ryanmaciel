@@ -85,3 +85,50 @@ println("$       ")
     
 }
 //------------------------------------------------------------
+fun main() {
+    println("oi")//exibir mensagens no console
+
+//exibir mensagens no console
+//
+/*
+var tartaruga = "michael havckson"
+
+println("o nome da tartaruga do kilyan mbappé é $tartaruga")
+println("o nome da tartaruga do kilyan mbappé é " + tartaruga)
+
+var leclec = 2
+var alonso = 1
+
+println(" A posição do lek + a posição do alonso são ${(leclec + alonso)}")
+
+println(" A posição do lek + a posição do alonso são " + (leclec + alonso))
+
+var nome = "ryan"
+var idade =14
+var cidade = "são paulo"   
+    
+println("o meu nome é $nome, eu tenho $idade anos e moro em $cidade")    
+*/    
+//Exercício - faça um dialogo de no minimo 15 linhas, nele deve conter,
+// os nomes de quem estão falando de forma concatenada  usando variaveis
+// usem criatividade
+//
+var nome1 = "ryan"
+var nome2 = "henrique"
+    
+println("$nome1- oi $nome2 tudo bem voce fez a atividade de matematica")
+println("$nome2- que atividade")   
+println("$nome1- aquela que valia nota") 
+println("$nome2- ata, nao, eu nao tive tempo") 
+println("$nome1- entao bora fazer agora") 
+println("$nome2- pode ser")         
+println("$nome1- pode ser na biblioteca")     
+println("$nome2- pode sim")      
+println("$nome1- entao vamos")     
+println("$nome2- so estou esperando voce") 
+println("$nome1- entao bora ")
+println("$nome2- o $nome1 voce sabe a resposta nao")
+println("$nome1- nem eu deixa que a professora me ensina depois") 
+println("$nome2- ta bom tchau")     
+println("$nome1- tchau")     
+}      
