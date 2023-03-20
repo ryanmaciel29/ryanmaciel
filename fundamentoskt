@@ -132,3 +132,40 @@ println("$nome1- nem eu deixa que a professora me ensina depois")
 println("$nome2- ta bom tchau")     
 println("$nome1- tchau")     
 }      
+//--------------------------------
+fun main() {
+  
+    //Operadores Matemáticos
+
+    // + -> Adicao
+    // - -> Subtracao
+    // / -> divicao
+    // * -> multiplicacao
+    // % -> modulo
+    /* 
+    var halls = 6
+    var freegells = 6
+    
+    println(halls - freegells)
+    println(halls + freegells)
+    println(halls / freegells)
+    println(halls * freegells)
+    println(halls % freegells)
+    
+    //EXERCICIOS - faça uma calculadora que contenha cada um dos operadores matematicos
+    //como resultado do calculo de duas variaveis(contendo resultado para +, -, /, *, e %),
+    //contendo tambem uma interface smples e bem bonita :)
+    */
+     
+    var Andre = 25
+    var Julia = 85
+    var marcus = 10
+    var joao = 2
+    var carlos = 31
+    var felipe = 47
+    
+    println("Em um belo dia o pedro saiu para o shop com julia e gastou andre quanto sobrou ${(Julia - Andre)}")
+    println("O pedro nao sabia o valor de marcus dividido de joao ${(marcus * joao)}")
+    println("O pedro estava andando com carlos a achou felipe quantos ele tem agora ${(carlos + felipe)}")
+}
+//-----------------------------------------
