@@ -169,3 +169,111 @@ fun main() {
     println("O pedro estava andando com carlos a achou felipe quantos ele tem agora ${(carlos + felipe)}")
 }
 //-----------------------------------------
+fun main() {
+    
+     //Operadores Matemáticos
+
+    // + -> Adicao
+    // - -> Subtracao
+    // / -> divicao
+    // * -> multiplicacao
+    // % -> modulo
+    /* 
+    var halls = 6
+    var freegells = 6
+    
+    println(halls - freegells)
+    println(halls + freegells)
+    println(halls / freegells)
+    println(halls * freegells)
+    println(halls % freegells)
+    
+    //EXERCICIOS - faça uma calculadora que contenha cada um dos operadores matematicos
+    //como resultado do calculo de duas variaveis(contendo resultado para +, -, /, *, e %),
+    //contendo tambem uma interface smples e bem bonita :)
+    */
+    /* 
+    var Andre = 25
+    var Julia = 85
+    var marcus = 10
+    var joao = 2
+    var carlos = 31
+    var felipe = 47
+    
+    println("Em um belo dia o pedro saiu para o shop com julia e gastou andre quanto sobrou ? ${(Julia - Andre)}")
+    println("O pedro nao sabia o valor de marcus dividido de joao  quanto é ? ${(marcus * joao)}")
+    println("O pedro estava andando com carlos a achou felipe quantos ele tem agora ? ${(carlos + felipe)}")
+    */
+    
+    // Operadors relacionais
+    //
+    // == -> igual a...
+    //!= ->diferente de...
+    //! -> negando valor
+    //> -> maior que...
+    //< -> menor que...
+    //>= -> maior ou igual...
+    //<= -> menor ou igual...
+    //
+    //
+    //++ -> adiciona 1 a um valor
+    //-- -> subtrai 1 de um valor
+    //+= -> adiciona um determinado valor a um valor
+    //-= -> subtrai um determinado valor de um valor
+    
+    /*
+    var clauldetty = 50
+    var josias = 30
+    var berennice = 90
+    var bernnadetty = 80
+    
+    println(clauldetty)
+    clauldetty++
+    println(clauldetty)
+    println("")
+    println(josias)
+    josias--
+    println(josias)
+    println("")
+    println(berennice)
+    berennice += clauldetty
+    println(berennice)
+    println("")
+    println(bernnadetty)
+    bernnadetty -=josias
+    println(bernnadetty)
+    */
+    
+    // Condições  if..else
+    
+    // se... senão
+    // 
+    // estrutura
+    // 
+    // if...else simples
+    // 
+    // if(condição)
+    // ação
+    // }else{
+    // ação
+    // }{
+    /*
+    var interruptor = false
+    
+    if(interruptor == true){
+        println("luz acesa ")
+    }else{
+        println("luz apagada ")
+    }
+    */
+    
+    var fome = true
+    
+    if(fome){
+       println("alimente-se")
+    }else{    
+       println("alimentou-se")
+    }
+    
+}
+//------------------------------------------------------------------------------------------------------------------------
