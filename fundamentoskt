@@ -204,9 +204,10 @@ fun main() {
     println("O pedro nao sabia o valor de marcus dividido de joao  quanto é ? ${(marcus * joao)}")
     println("O pedro estava andando com carlos a achou felipe quantos ele tem agora ? ${(carlos + felipe)}")
     */
-    
     // Operadors relacionais
     //
+    //------------------------------------------------
+    
     // == -> igual a...
     //!= ->diferente de...
     //! -> negando valor
@@ -277,3 +278,72 @@ fun main() {
     
 }
 //------------------------------------------------------------------------------------------------------------------------
+  fun main(){
+/*
+if(fome){
+    plintln("alimente-se!")
+ }else{
+    plintln("alimentou-se!")
+    
+}    
+ */   
+    /*
+    var senha = "azeitona"
+
+    if(senha == "azeitona"){
+        println("bem-vindo sr stark")
+    }else{
+        println("senha incorreta, tente novamente")
+        
+    }   
+        
+       //SOCORRAM ME SUBI NO ONIBUS EM MARROCOS 
+        
+       // if..else composto
+       // 
+       // com if..else composto, somos permitidos, coparar mais de duas condicoes (o simples
+       // e o else), atraves do 'else if'
+       // 
+      
+       var coracoes = 5
+       if(coracoes >= 5){ 
+           println("voce esta muito saudavel! parabens")
+       }else if(coracoes == 4){   
+           println("voce ta de boa")
+       }else if(coracoes == 3){   
+           println("cuidado com a sua saude, durma melhor")    
+       }else if(coracoes == 2){   
+           println("va se tratar, voce nao esta bem...")     
+       }else if(coracoes == 1){   
+           println("estado critico!!!!!!!")
+       }else{
+           println("novo revorso do vasco")
+       } 
+       */
+    // 1 - faca um progama usando 2 variaveis que representem cada uma, 1 numero.
+    // ele(programa) deve verificar qual dos 2 é o maior numero e imprimi-lo no vonsole
+    
+    
+    // 2 - faca um progama que verifique se o valor de uma variavel é
+    // maior, igual, ou menor que 0 (positivo ou  negativo, ou nenhun dos dois)
+    
+     var coracoes = 5
+       if(coracoes >= 5){ 
+           println("voce esta muito saudavel! parabens")
+       }else if(coracoes == 4){   
+           println("voce ta de boa")
+       }else if(coracoes == 3){   
+           println("cuidado com a sua saude, durma melhor")    
+       }else if(coracoes == 2){   
+           println("va se tratar, voce nao esta bem...")     
+       }else if(coracoes == 1){   
+           println("estado critico!!!!!!!")
+       }else{
+           println("novo revorso do vasco")
+       }  
+    
+       
+}
+
+ 
+    
