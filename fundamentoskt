@@ -345,5 +345,103 @@ if(fome){
        
 }
 
- 
+ /----------------------------------------------------
+    fun main(){
+/*
+if(fome){
+    plintln("alimente-se!")
+ }else{
+    plintln("alimentou-se!")
     
+}    
+ */   
+    /*
+    var senha = "azeitona"
+
+    if(senha == "azeitona"){
+        println("bem-vindo sr stark")
+    }else{
+        println("senha incorreta, tente novamente")
+        
+    }   
+        
+       //SOCORRAM ME SUBI NO ONIBUS EM MARROCOS 
+        
+       // if..else composto
+       // 
+       // com if..else composto, somos permitidos, coparar mais de duas condicoes (o simples
+       // e o else), atraves do 'else if'
+       // 
+      
+       var coracoes = 5
+       if(coracoes >= 5){ 
+           println("voce esta muito saudavel! parabens")
+       }else if(coracoes == 4){   
+           println("voce ta de boa")
+       }else if(coracoes == 3){   
+           println("cuidado com a sua saude, durma melhor")    
+       }else if(coracoes == 2){   
+           println("va se tratar, voce nao esta bem...")     
+       }else if(coracoes == 1){   
+           println("estado critico!!!!!!!")
+       }else{
+           println("novo revorso do vasco")
+       } 
+       */
+    // 1 - faca um progama usando 2 variaveis que representem cada uma, 1 numero.
+    // ele(programa) deve verificar qual dos 2 é o maior numero e imprimi-lo no vonsole
+    
+    
+    // 2 - faca um progama que verifique se o valor de uma variavel é
+    // maior, igual, ou menor que 0 (positivo ou  negativo, ou nenhun dos dois)
+    /*
+     var bolo = 10
+     var bala = 5
+     if(bolo > bala ){
+          println("tem muito bolo")
+     }else if(bolo < bala){
+         println(bala)
+     }else{
+         println("$bolo e $bala sao iguais")
+     }
+       
+    
+       var diamante = 0
+       
+       if (diamante > 0){
+           println("numero positivo")
+       }else if(diamante < 0){
+           println("numero negativo")
+       }else{    
+           println("numero igual a zero")
+       }
+        */ 
+           
+           // operador logicos
+           // && -> e -> se todos as condicoes forem verdadeiras, o resultado sera verdadeiro
+           // || -> ou -> se pelo menos em codicoes for verdadeira, o resultado sera verdadeiro
+           // 
+           // tabela verdadeira
+           // 
+           // &&
+           // VVV -> V
+           // VVF -> F 
+           // FFF -> F
+           // FVF -> F
+           // FVV -> F
+           // VFV -> F
+           // 
+           // || ->
+           // VV ->
+           // VF ->
+           // FV ->
+           // FF ->
+           // 
+           // 
+       
+       
+    {       
+       
+      
+
+/----------------------------------------------
