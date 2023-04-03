@@ -431,11 +431,11 @@ if(fome){
            // FVV -> F
            // VFV -> F
            // 
-           // || ->
-           // VV ->
-           // VF ->
-           // FV ->
-           // FF ->
+           // || -> v
+           // VV -> v
+           // VF -> v
+           // FV -> v
+           // FF -> f
            // 
            // 
        
@@ -445,3 +445,68 @@ if(fome){
       
 
 /----------------------------------------------
+fun main() {
+   /* 
+    // na pratica operadores logicos
+    //
+    // minha mae pediu para eu ir na loja de talheres e ela faluo:
+    // traga uma colher, se tiver garfo e faca
+    //
+    
+    var garfo = false
+    var faca = true
+    var colher = true
+    
+    //println(garfo && faca)
+    println(garfo || faca || colher)
+    println(garfo && faca && colher)
+    println((garfo && faca ) || colher)
+    println(garfo && (faca || colher))
+*/
+    
+    // show do pericles
+    // pro sidadao menor de 18, ele precisa ter pelo menos 12 anos e
+    // esta acompanhado dos pais
+    // 
+    var idade = 15
+    var compais = false
+    var comidentidade = true
+    
+    if(idade < 18){
+        
+        if((idade >= 12 &&  comidentidade == true) || compais == true){
+            println("aproveitem o show... meno")
+        }else{
+            println("tu nao pode entra")
+            
+        }
+        
+        
+        
+        
+    }else{   
+        println(" aproveite o show")
+        
+    }
+    
+    // exercicios -> no metroidvaina, para o hero ir para a tela de
+    // gameover
+    // seus coracoes preciisam ser igual a zero e
+    // suas vidas precisam ser menos ou igual a zero
+    
+    // simule com operadores logicos quando ele vai para o gameover
+    // e quando ele nao vai
+    
+    var coracoes = 5
+    var vida = 3
+         println
+    
+    
+    
+    
+    
+    
+    
+    
+}
+    /---------------------------------------------------------------------------------
