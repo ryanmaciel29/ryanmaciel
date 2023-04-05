@@ -510,3 +510,114 @@ fun main() {
     
 }
     /---------------------------------------------------------------------------------
+fun main() {
+   /* 
+    // na pratica operadores logicos
+    //
+    // minha mae pediu para eu ir na loja de talheres e ela faluo:
+    // traga uma colher, se tiver garfo e faca
+    //
+    
+    var garfo = false
+    var faca = true
+    var colher = true
+    
+    //println(garfo && faca)
+    println(garfo || faca || colher)
+    println(garfo && faca && colher)
+    println((garfo && faca ) || colher)
+    println(garfo && (faca || colher))
+*/
+   /* 
+    // show do pericles
+    // pro sidadao menor de 18, ele precisa ter pelo menos 12 anos e
+    // esta acompanhado dos pais
+    // 
+    var idade = 15
+    var compais = false
+    var comidentidade = true
+    
+    if(idade < 18){
+        
+        if((idade >= 12 &&  comidentidade == true) || compais == true){
+            println("aproveitem o show... meno")
+        }else{
+            println("tu nao pode entra")
+            
+        }
+        
+        
+        
+        
+    }else{   
+        println(" aproveite o show")
+        
+    }
+    */
+    // exercicios -> no metroidvaina, para o hero ir para a tela de
+    // gameover
+    // seus coracoes preciisam ser igual a zero e
+    // suas vidas precisam ser menos ou igual a zero
+    
+    // simule com operadores logicos quando ele vai para o gameover
+    // e quando ele nao vai
+  /*  
+    var coracoes = 5
+    var vidas = 1
+    var morte = 0
+      if(coracoes < vidas)
+           println("voce esta morto")
+      }else if(morte == 0 && vidas<= 0 ){
+           println("game over")
+      }else(morte < vidas ){
+           println("voce esta vivo")
+    
+    
+      }  
+    */
+    
+    // when - quando
+    // 
+    // comparacao de quando um valor for igual a um determinado valor,
+    // uma determinada acao sera executada
+    // 
+    // estrutura do when
+    // 
+    // var auciliar = valor
+    // 
+    // when(auciliar){
+    // 
+    // valor -> {acao}
+    // valor -> {acao}
+    // valor -> {acao}
+    // valor -> {acao}
+    // valor -> {acao}
+    // else -> {acao}
+    // }
+    // sera usado geralmente quando durante o programa o valor da variavel
+    // nao for estatico, ou seja, ele estiver mudado
+    // 
+    
+    var mes = 5
+    
+    when(mes){
+        1 -> {println("lisboa")}
+        2 -> {println("franca")}
+        3 -> {println("bolivia")}
+        4 -> {println("alasca")}
+        5 -> {println("amazonas")}
+        6 -> {println("madri")}
+        7 -> {println("china")}
+        8 -> {println("russia")}
+        9 -> {println("zelandia")}
+        10 -> {println("indonesia")}
+        11 -> {println("mexico")}
+        12 -> {println("filipinas")}
+        else -> {println("acordou!!!")}
+    
+    
+    
+    
+ }
+}
+ /---------------------------------------------------------
