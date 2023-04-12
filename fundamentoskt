@@ -751,3 +751,66 @@ fun main() {
     
 }
 /--------------------------------------------------------------
+fun main() {
+    
+    // lacos se erpeticao - loops
+    // 
+    // repeat - repita
+    // while - enquanto
+    // do...while - faca..enquanto
+    // for - para
+    // 
+    // repeat - repita
+    // vai repetir uma determinada ação uma determinada quantidade de vezes
+    // 
+    // estrutura do repeat
+    // 
+    // repeat(numeroVezes){
+    // ação
+    // }
+    /*
+    repeat(8){
+        println("isso e um teste, testando, testando")
+    }
+    
+    // exercicio -> faca um programa com auxilio de uma variavel contador,
+    // no qual nela sear acrescentado 1 a cada repeticao,
+    // ate que de a quantidade de vezes decidida 
+    */
+    var pão = 10
+    var repetir = 0
+    /*
+    //o joao foi comprar 10 pães, ninguem atendeu ele então ele começou a gritar quero pão
+    repeat(pão){
+        repetir++
+        println("quero pão!!! $repetir")
+    }
+    */
+    // laco while - enquanto
+    // 
+    // enquanto uma condição for verdadeira, uma determinada ação estará sendo executada
+    // estrutura do while
+    // 
+    // while(condição){
+    // ação
+    // }
+    /*
+    var contador = 0
+    while(contador < 10){
+        println(contador++)
+    }
+    */
+    // exercicios -> simulador d bateria de celular
+    // faça um programa com while que mostre s bateria 100% diminuindo.
+    // quando ela chegar no 15, deve mostra a mensagem pedindo para
+    // conectar o carregador, e quando ghegar a 0, deve mostra a mensagem
+    // aparelho desligando
+    var contador = 0
+    while(contador == 100){
+        println
+    }
+    while(contador == 15)
+    while(contador == 0)
+
+}
+/----------------------------------------------------------
