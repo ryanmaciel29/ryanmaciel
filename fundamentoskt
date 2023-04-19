@@ -932,3 +932,155 @@ fun main() {
 
 }
 /-----------------------------
+fun main() {
+    
+    // lacos se erpeticao - loops
+    // 
+    // repeat - repita
+    // while - enquanto
+    // do...while - faca..enquanto
+    // for - para
+    // 
+    // repeat - repita
+    // vai repetir uma determinada ação uma determinada quantidade de vezes
+    // 
+    // estrutura do repeat
+    // 
+    // repeat(numeroVezes){
+    // ação
+    // }
+    /*
+    repeat(8){
+        println("isso e um teste, testando, testando")
+    }
+    
+    // exercicio -> faca um programa com auxilio de uma variavel contador,
+    // no qual nela sear acrescentado 1 a cada repeticao,
+    // ate que de a quantidade de vezes decidida 
+    */
+    /*
+    var pão = 10
+    var repetir = 0
+    */
+    /*
+    //o joao foi comprar 10 pães, ninguem atendeu ele então ele começou a gritar quero pão
+    repeat(pão){
+        repetir++
+        println("quero pão!!! $repetir")
+    }
+    */
+    // laco while - enquanto
+    // 
+    // enquanto uma condição for verdadeira, uma determinada ação estará sendo executada
+    // estrutura do while
+    // 
+    // while(condição){
+    // ação
+    // }
+    /*
+    var contador = 0
+    while(contador < 10){
+        println(contador++)
+    }
+    */
+    // exercicios -> simulador d bateria de celular
+    // faça um programa com while que mostre s bateria 100% diminuindo.
+    // quando ela chegar no 15, deve mostra a mensagem pedindo para
+    // conectar o carregador, e quando ghegar a 0, deve mostra a mensagem
+    // aparelho desligando
+    /*
+    var bateria = 100
+    
+    while(bateria >= 0){
+        println("$bateria%")
+        
+        when(bateria){
+            15 -> {println("aparelho descarregando, conecte no caregador")}
+            0 -> println("aparelho desligando!")
+        }
+        bateria--
+    }
+    */
+    // while -> ENQUANTO uma determinada condição for verdadeira, uma determinada ação será
+    // executada
+    /*
+    var contador = 0
+    while(contador < 10){
+        println(contador++)
+    }
+    */
+    // do..while
+    // 
+    // uma determinada ação será exacutada, ENQUANTO uma determinnada condição for
+    // verdadeira
+    // 
+    // do{
+    // ação
+    // }while(condição)
+    /*
+    var contador = 0
+    
+    do{
+        println(contador++)
+    }while(contador <= 10)
+    */
+    // for - para...
+    // 
+    // PARA cada item em um intervalo ou colection, uma determinada ação será executada 
+    // estrutura 
+    // 
+    // for(vAuxilio in intervalo ou colection){
+    // ação
+    // }
+    // 
+    /* 
+    for(pneu in 1..4){
+        println("1 pneu")
+    }      
+    
+    for(pneu in 0..3){
+        println(pneu + 1)
+    }
+    */
+    // EXERCICIO -> faça uma tabuada até o décimo multiplo de um numero escolido,
+    // utilizando o laço for 
+    // em excessão as tabuadas do 1, 2 e 3
+    /*           
+    var tabuada = 0
+       for(tabuada in 1..10){
+           println(tabuada * 3)
+       }
+    */
+    
+    // collections
+    // 
+    // itervalos, lista, arrays, vetores etc
+    // 
+    // tipos de lista
+    // 
+    var list1 = listOf("tartaruga", 0, 0.1, true)
+    
+    println(list1) // exibir  lista
+    println(list1.size) // retonar o tamanho da lista
+    println(list1.lastIndex) // retorna o último index
+    println(list1[2]) // exibir o valor de um determonado index
+    println(list1.contains("tartaruga")) // compra se existe um determonado valor dentro da lista
+    println(list1.indexOf(0)) // indica o index de um determonado valor
+    println(list1.lastIndexOf(0.1)) // indicar o último de um determnado valor
+    println(list1.first()) // o volor do primeiro index
+    println(list1.last()) // o valor do ultimo index
+    println(list1.isEmpty()) // comparar se a lista esta vazia
+    
+    //<tags>
+    var list2 = listOf<string>("leBron James", "Sthephen curry", "michel Jordan", "Perna longa", "Klay thompson"
+    // lista acima especifica o tipo de dados que vai ser guardado
+    // 
+    // obs. listOf( -> imu
+    
+    
+    
+    
+    
+    
+  
+}
