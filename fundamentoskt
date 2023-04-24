@@ -1084,3 +1084,73 @@ fun main() {
     
   
 }
+/--------------------------------------------------------
+fun main() { 
+ 
+    // obs. listOf( -> imutavel
+    // proxima aula... mutableListOf()
+    // mutableListOf()--> amarzena qualquer tipo de valores conjuntos
+    // mutableListOf<tipoDeValor> -> amarzena valores especificos de seu tipo
+    /*  
+    var comida = mutableListOf<String>("Strogonoff", "Patê de frango", "lasanha", "feijoada")
+    
+    println(comida)
+    
+    
+    // propriedades
+    // 
+    comida.add("macarão") //adicionar u valor a lista
+    println(comida)
+    comida.add(0, "cuscuz") // adiciona um valor a um index em especificona lista 
+    println(comida) 
+    comida.remove("Patê de frango") // remove um valor em especifico da lista
+    println(comida) 
+    comida. removeAt(0) // remove um valor de um index em especifico
+    println(comida) 
+    comida.set(2, "pastel de frango") // substituium valor pelo seu index 
+    println(comida) 
+    comida.clear() // remover todos os valores da lista
+    println(comida) 
+    
+}
+    
+    // Exercicios -> a cada mes do ano, em uma turma de 5 alunos 
+    // .crie a lista iniciante de alunos da turma 
+    // .a cada mes adicione um novo aluno (em lista difentes)
+    // .e 2 meses do ano, 2 alunos foram tranferidos
+    // da turma (dica: em meses diferentes)
+    // .e em 2 meses do ano, 2 alunos foram subistituidos por
+    // outros dois alunos(dica: em meses diferentes)
+    // 
+    // Exiba lista de aluno respectiva de cada me do ano 
+    // dica(interpretação de texto)
+    */
+    var aluno = mutableListOf<String>("paulo", "fernanda", "pedro", "maria", "joão")
+    println(aluno)
+    aluno.add("andresa")
+    println(aluno)
+    aluno.add("iasmin")
+    println(aluno)
+    aluno.add("laura")
+    println(aluno)
+    aluno.add("stefanny")
+    println(aluno)
+    aluno.add("joana")
+    println(aluno)
+    aluno.add("ana")
+    println(aluno)
+    aluno.add("marcus")
+    println(aluno)
+    aluno.add("nicolas")
+    println(aluno)
+    aluno.add("lucas")
+    println(aluno)
+    aluno.add("cauã")
+    println(aluno)
+    aluno.add("kauã")
+    println(aluno)
+    aluno.add("carlos")
+    
+
+}
+/----------------------------------------------------------
