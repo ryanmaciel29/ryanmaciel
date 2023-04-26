@@ -1154,3 +1154,83 @@ fun main() {
 
 }
 /----------------------------------------------------------
+
+fun main() {
+   // Exercicios -> a cada mes do ano, em uma turma de 5 alunos 
+    // .crie a lista iniciante de alunos da turma 
+    // .a cada mes adicione um novo aluno (em lista difentes)
+    // .e 2 meses do ano, 2 alunos foram tranferidos
+    // da turma (dica: em meses diferentes)
+    // .e em 2 meses do ano, 2 alunos foram subistituidos por
+    // outros dois alunos(dica: em meses diferentes)
+    // 
+    // Exiba lista de aluno respectiva de cada me do ano 
+    // dica(interpretação de texto)
+    /*
+    var aluno = mutableListOf<String>("paulo", "fernanda", "pedro", "maria", "joão")
+    println(aluno)
+    aluno.add("andresa")
+    println(aluno)
+    aluno.add("iasmin")
+    println(aluno)
+    aluno.add("laura")
+    println(aluno)
+    aluno.add("stefanny")
+    println(aluno)
+    aluno.add("joana")
+    println(aluno)
+    aluno.add("ana")
+    println(aluno)
+    aluno.add("marcus")
+    println(aluno)
+    aluno.add("nicolas")
+    println(aluno)
+    aluno.add("lucas")
+    println(aluno)
+    aluno.add("cauã")
+    println(aluno)
+    aluno.add("kauã")
+    println(aluno)
+    aluno.add("carlos")
+    println(aluno)
+    aluno.remove("joão")
+    println(aluno)
+    aluno.remove("ana")
+    println(aluno)
+    aluno.remove("marcus")
+    println(aluno)
+    aluno.remove("cauã")
+    println(aluno)
+    aluno.remove("fernanda")
+    println(aluno)
+    aluno.remove("marcus")
+    println(aluno)
+    aluno.set(1,"bianca")
+    println(aluno)
+    aluno.set(2,"andenson")
+    println(aluno)
+    aluno.add("karen")
+    println(aluno)
+    aluno.add("laila")
+    println(aluno)
+    */
+    
+    // Poo
+    // 
+    // programação Orientada a Objetos
+    // 
+    // Objetivo: simular atividades e situaoções do mundo real
+    // 
+    // Objeto - elementos que podem interagir com um sistema 
+    // 
+    // clsse - denominação de um determinado objeto
+    // 
+    // atributos - caracteristicas, propiedades, parâmetros
+    // 
+    // métodos - atividades, ações, que o objeto pode realizar
+    // 
+    // 
+    // herança - atributos de um obj qye sã herdados de uma classe
+    
+
+}------------------------------------------------------
