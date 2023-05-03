@@ -1234,3 +1234,60 @@ fun main() {
     
 
 }------------------------------------------------------
+fun main() {
+
+    // Poo
+    // 
+    // programação Orientada a Objetos
+    // 
+    // Objetivo: simular atividades e situaoções do mundo real
+    // 
+    // Objeto - elementos que podem interagir com um sistema 
+    // 
+    // clsse - denominação de um determinado objeto
+    // 
+    // atributos - caracteristicas, propiedades, parâmetros
+    // 
+    // métodos - atividades, ações, que o objeto pode realizar
+    // 
+    // 
+    // herança - atributos de um obj que são herdados de uma classe
+    /*
+       var pessoa1 = Pessoa() // instanciamos um obj 
+       
+       println(pessoa1.peso) // exibir um atrributo de obj
+       println(pessoa1.nome) 
+       pessoa1.nome = "laura" //alterar um valor de um atributo de um obj
+       println(pessoa1.nome + ", " + pessoa1.idade) 
+
+}
+    class Pessoa{
+       //atributos que toda pessoa pode ter
+       var nome = ""
+       var idade = 0
+       var nacionalidade = 0.0
+       var idioma = 70.27
+       var profissão = ""
+    } 
+    */
+    // exercicio -> faça uma aprensentacao sua utilizando a classe pessoa() já criada e utilizado pelo
+    // menos todos os atributos que existem no classe
+    
+    var pessoa1 = Pessoa()
+       
+       println(pessoa1.nome) 
+       println(pessoa1.idade) 
+       println(pessoa1.nacionalidade)
+       println(pessoa1.idioma)
+       println(pessoa1.profissão)
+
+}
+    class Pessoa{
+       
+       var nome = "Ryan Maciel Do Nascimento"
+       var idade = 14
+       var nacionalidade = "Brasil"
+       var idioma = "portugues"
+       var profissão = "comerciante"
+    }   
+    /-----------------------------------
