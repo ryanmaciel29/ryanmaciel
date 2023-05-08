@@ -1291,3 +1291,81 @@ fun main() {
        var profissão = "comerciante"
     }   
     /-----------------------------------
+fun main() {
+ // exercicio -> faça uma aprensentacao sua utilizando a classe pessoa() já criada e utilizado pelo
+    // menos todos os atributos que existem no classe
+   /* 
+    var pessoa1 = Pessoa()
+       
+       println(pessoa1.nome) 
+       println(pessoa1.idade) 
+       println(pessoa1.nacionalidade)
+       println(pessoa1.idioma)
+       println(pessoa1.profissão)
+       print("meu nome é &{pessoa1.nome}, eu tenho ${"pessoa1.idade"}, eu sou ${"pessoa1.nacionalidade"}, eu falo")
+       println("${pessoa1.idioma} e minha profissão é ${"pessoa1.profissão"}")
+
+}
+    class Pessoa{
+       
+       var nome = "Ryan Maciel Do Nascimento"
+       var idade = 14
+       var nacionalidade = "Brasil"
+       var idioma = "portugues do Brasil"
+       var profissão = "comerciante"
+    }
+    */
+    /*
+    class animal(var especie: String, //atributos que todos animais deve ter
+                var raca: String, 
+                var idade: String, 
+                var dieta: String,
+                var habitar: String,)
+    */
+    /*
+       var pessoa2 = pessoa() 
+       var animal1 = animal("cachorro", "pinscher", 7 ,"chinelo", "grande") 
+   
+       class animal(var especie: String,
+                var raca: String, 
+                var idade: String, 
+                var dieta: String,
+                var habitar: String,) 
+    
+    */
+    
+    // Exercicios -> faca o catalogo(ficticio) de animais que estao morando zoologico de SP
+    // com no minimo 20 animais, sem repetição de raca
+    
+     var animal1 = animal()
+       
+       println(animal1.nome) 
+       println(animal1.idade) 
+       println(animal1.nacionalidade)
+       println(animal1.idioma)
+       println(animal1.profissão)
+
+}
+    class animal1{
+       
+       var nome = "Ryan Maciel Do Nascimento"
+       var idade = 14
+       var nacionalidade = "Brasil"
+       var idioma = "portugues"
+       var profissão = "comerciante"
+    }   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+}
+/-----------------------------------
